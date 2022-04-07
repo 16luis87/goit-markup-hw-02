@@ -1,0 +1,108 @@
+:root{
+    --colortextotitulos: #212121;
+    --colortextoparrafos: #757575;
+    --colortextoresaltado: #2196F3;
+    --colorbotonesfiltro: #F5F4FA;
+    --colorfondofooter: #2F303A;
+    --tamañofuentea: 14px;  
+    --tamañofuenteb: 16px;
+    --tamañofuentec: 18px;
+    --grosorfuentea: 400;
+    --grosorfuenteb: 500;
+    --grosorfuentec: 600;
+    --interlineadoa: 16.41px;
+    --interlineadob: 24px;
+    --interlineadoc: 26px;
+    --interlineadod: 30px;
+    --interlineadoe: 36px;
+}
+
+.logo{
+    display: inline-block;
+    color: var(--colortextoresaltado);
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 26spx;
+    line-height: 30.52px;
+}
+
+.menu {
+    display: inline-block;
+}
+
+.datoscontacto{
+    display: inline-block;
+}
+
+a{
+    text-decoration: none;
+    color: var(--colortextotitulos);
+    font-weight: var(--grosorfuenteb);
+    font-size: var(--tamañofuentea);
+    line-height: var(--interlineadoa);
+    cursor: pointer;
+}
+
+a:hover{
+    color:var(--colortextoresaltado);
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    color: var(--colortextoparrafos);
+    font-weight: var(--grosorfuentea);
+    font-size: var(--tamañofuenteb);
+    line-height: var(--interlineadod);
+    margin: 0;
+    padding: 0;
+}
+
+.filtro :hover{
+    color: var(--colorbotonesfiltro);
+    background: var(--colortextoresaltado);
+    cursor: pointer;
+}
+
+.link{
+    background: var(--colorbotonesfiltro);
+    color: var(--colortextotitulos);
+    font-weight: var(--grosorfuenteb);
+    font-size: var(--tamañofuenteb);
+    line-height: var(--interlineadoc);
+    outline: none;
+    border: none;
+    border-radius: 4px;
+}
+
+h3{
+    color: var(--colortextotitulos);
+    font-weight: var(--tamañofuentec);
+    line-height: var(--interlineadoe);
+}
+
+.bloque1{
+    display:flex;
+}
+
+.bloque2{
+    display: flex;
+}
+
+.bloque3{
+    display: flex;
+}
+
+.piedepagina{
+background-color: #2F303A;
+}
+
+.domicilio{
+    color: white;
+    font-weight: var(--grosorfuentea);
+    font-size: var(--tamañofuentea);
+    line-height: var(--interlineadob);
+}
+
+.contacto{
+    color: white;
+}
